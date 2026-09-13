@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "jbicks.skills",
+  "name": "SkillSync",
+  "version": "0.2.0",
+  "author": "jbicks",
+  "license": "MIT",
+  "description": "SkillSync: one shared agent-skills library, a skills.sh browser, and directory-level wiring so every harness on the machine reads the same folder.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "SkillSync",
+    "description": "Shared skills library, skills.sh discover, and harness wiring.",
+    "category": "AI",
+    "aliases": ["skillsync", "skills", "skillkit", "agentskills"],
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "showBundled": false
+    },
+    "schema": [
+      {
+        "key": "showBundled",
+        "type": "boolean",
+        "label": "Show bundled system skills",
+        "defaultValue": false,
+        "description": "Include read-only skills shipped with Grok and Omarchy in the library list."
+      }
+    ]
+  }
+}

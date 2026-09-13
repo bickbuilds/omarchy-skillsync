@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" role="img">
+  <title>SkillSync</title>
+  <!-- Sync orbit: almost-closed ring with a directional arrow -->
+  <path
+    stroke="#fff"
+    stroke-width="2.4"
+    stroke-linecap="round"
+    d="M25.35 10.7a11 11 0 1 1-5.15-5.05"
+  />
+  <path fill="#fff" d="M26.4 5.55 26.7 11.2 21.15 8.7z"/>
+  <!-- Shared-library node at the center -->
+  <path
+    fill="#fff"
+    d="M16 8.6 18.15 14.1 23.7 16.15 18.15 18.2 16 23.7 13.85 18.2 8.3 16.15 13.85 14.1z"
+  />
+</svg>
