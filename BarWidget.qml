@@ -13,6 +13,7 @@ BarWidget {
 
   function open() { if (panelItem) panelItem.open() }
   function close() { if (panelItem) panelItem.close() }
+  function toggle() { root.togglePanel() }
   function togglePanel() { if (panelItem) panelItem.toggle() }
   function closeForPopoutSwitch() { if (panelItem) panelItem.closeForPopoutSwitch() }
   function refresh() { if (panelItem && panelItem.refresh) panelItem.refresh() }
