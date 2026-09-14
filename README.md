@@ -8,6 +8,23 @@ One shared library at `~/.agents/skills`, a [skills.sh](https://skills.sh) brows
 
 **Plugins run unsandboxed inside `omarchy-shell` with your user permissions.** Read this repository before you enable it. Listing on the Omarchy marketplace is not a security review.
 
+## Screenshots
+
+<p align="center"><img src="preview.png" alt="SkillSync" width="640"></p>
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/library.png" alt="Library tab" width="280"></td>
+    <td align="center"><img src="screenshots/discover.png" alt="Discover tab" width="280"></td>
+    <td align="center"><img src="screenshots/harnesses.png" alt="Harnesses tab" width="280"></td>
+  </tr>
+  <tr>
+    <td align="center">Library</td>
+    <td align="center">Discover</td>
+    <td align="center">Harnesses</td>
+  </tr>
+</table>
+
 ## Install
 
 ```bash

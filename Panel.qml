@@ -75,6 +75,14 @@ Panel {
     root.open()
     root.changeTab("discover")
   }
+  function openLibrary() {
+    root.open()
+    root.changeTab("library")
+  }
+  function openHarnesses() {
+    root.open()
+    root.changeTab("harnesses")
+  }
   function close() {
     root.confirmOpen = false
     root.controller.hide()
@@ -274,6 +282,13 @@ Panel {
   }
 
   Component.onCompleted: root.refresh()
+
+  IpcHandler {
+    target: "jbicks.skills"
+    function library(): void { root.openLibrary() }
+    function discover(): void { root.openDiscover() }
+    function harnesses(): void { root.openHarnesses() }
+  }
 
   KeyboardPanel {
     id: panel
