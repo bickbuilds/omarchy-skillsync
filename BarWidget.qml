@@ -67,9 +67,13 @@ BarWidget {
     text: ""
     tooltipText: root.opened ? "Close SkillSync" : "SkillSync"
     iconComponent: Component {
-      Logo {
-        anchors.fill: parent
-        color: button.foreground
+      // An Image keeps its declared size, so it needs something with bounds to
+      // fill. BarIconContent gives an empty wrapper item the icon canvas.
+      Item {
+        Logo {
+          anchors.fill: parent
+          color: button.foreground
+        }
       }
     }
 
